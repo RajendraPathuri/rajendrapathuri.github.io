@@ -1,13 +1,14 @@
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Separator } from '@/components/ui/separator';
+import { Github, Linkedin, Book } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function AboutPage() {
   const profileImage = PlaceHolderImages.find(p => p.id === 'profile');
 
   return (
-    <div className="space-y-12">
+    <div className="flex items-center justify-center flex-1 -mt-10">
       <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
         <div className="w-48 h-48 md:w-64 md:h-64 relative">
           {profileImage && (
@@ -27,21 +28,25 @@ export default function AboutPage() {
           <p className="mt-4 max-w-2xl mx-auto md:mx-0">
             Welcome to my digital space. I'm a passionate developer with a knack for building elegant and efficient solutions. I specialize in modern web technologies and love to explore the intersection of code and creativity.
           </p>
+          <div className="mt-6 flex justify-center md:justify-start gap-4">
+            <Button variant="ghost" size="icon" asChild>
+              <Link href="#" aria-label="GitHub">
+                <Github className="h-6 w-6" />
+              </Link>
+            </Button>
+            <Button variant="ghost" size="icon" asChild>
+              <Link href="#" aria-label="LinkedIn">
+                <Linkedin className="h-6 w-6" />
+              </Link>
+            </Button>
+            <Button variant="ghost" size="icon" asChild>
+              <Link href="#" aria-label="Medium">
+                <Book className="h-6 w-6" />
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
-      
-      <Separator />
-
-      <Card className="bg-card/50">
-        <CardHeader>
-          <CardTitle className="font-headline text-3xl">My Philosophy</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-lg">
-            I believe in the power of clean code, user-centric design, and continuous learning. My goal is to not only write functional software but to craft experiences that are intuitive, accessible, and enjoyable. This portfolio is a living document of my journey, showcasing projects I'm proud of and thoughts on the ever-evolving world of technology.
-          </p>
-        </CardContent>
-      </Card>
     </div>
   );
 }
