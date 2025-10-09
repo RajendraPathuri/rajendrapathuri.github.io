@@ -8,9 +8,9 @@ export default function AboutPage() {
   const profileImage = PlaceHolderImages.find(p => p.id === 'profile');
 
   return (
-    <div className="flex flex-col items-center justify-center text-center flex-1 -mt-10">
-      <div className="flex flex-col items-center gap-8">
-        <div className="w-48 h-48 md:w-64 md:h-64 relative">
+    <div className="flex items-center justify-center flex-1 -mt-10">
+      <div className="flex flex-col md:flex-row items-center gap-10 max-w-4xl">
+        <div className="w-48 h-48 md:w-64 md:h-64 relative flex-shrink-0">
           {profileImage && (
             <Image
               src={profileImage.imageUrl}
@@ -22,13 +22,13 @@ export default function AboutPage() {
             />
           )}
         </div>
-        <div className="flex-1 text-center">
+        <div className="text-center md:text-left">
           <h1 className="font-headline text-4xl md:text-6xl font-bold text-primary">John Doe</h1>
           <p className="mt-2 text-xl text-muted-foreground">Full-Stack Developer & Tech Enthusiast</p>
-          <p className="mt-4 max-w-2xl">
+          <p className="mt-4">
             Welcome to my digital space. I'm a passionate developer with a knack for building elegant and efficient solutions. I specialize in modern web technologies and love to explore the intersection of code and creativity.
           </p>
-          <div className="mt-6 flex justify-center gap-4">
+          <div className="mt-6 flex justify-center md:justify-start gap-4">
             <Button variant="ghost" size="icon" asChild>
               <Link href="#" aria-label="GitHub">
                 <Github className="h-6 w-6" />
