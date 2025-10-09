@@ -17,9 +17,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Roboto Mono', 'monospace'],
-        headline: ['Source Code Pro', 'monospace'],
-        code: ['monospace'],
+        body: ['Inter', 'sans-serif'],
+        headline: ['Inter', 'sans-serif'],
+        code: ['Fira Code', 'monospace'],
       },
       colors: {
         background: 'hsl(var(--background))',
