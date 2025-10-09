@@ -3,9 +3,22 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Github, Linkedin, Book } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { getPageContent } from '@/lib/content';
 
-export default function AboutPage() {
-  const profileImage = PlaceHolderImages.find(p => p.id === 'profile');
+type AboutContent = {
+  name: string;
+  title: string;
+  profileImage: string;
+  socials: {
+    github: string;
+    linkedin: string;
+    medium: string;
+  }
+};
+
+export default async function AboutPage() {
+  const pageData = await getPageContent<AboutContent>('about');
+  const profileImage = PlaceHolderImages.find(p => p.id === pageData.profileImage);
 
   return (
     <div className="flex items-center justify-center flex-1">
@@ -23,24 +36,22 @@ export default function AboutPage() {
           )}
         </div>
         <div className="text-center md:text-left">
-          <h1 className="font-headline text-4xl md:text-6xl font-bold text-primary">John Doe</h1>
-          <p className="mt-2 text-xl text-muted-foreground">Full-Stack Developer & Tech Enthusiast</p>
-          <p className="mt-4 max-w-lg">
-            Welcome to my digital space. I'm a passionate developer with a knack for building elegant and efficient solutions. I specialize in modern web technologies and love to explore the intersection of code and creativity.
-          </p>
+          <h1 className="font-headline text-4xl md:text-6xl font-bold text-primary">{pageData.name}</h1>
+          <p className="mt-2 text-xl text-muted-foreground">{pageData.title}</p>
+          <div className="mt-4 max-w-lg prose dark:prose-invert" dangerouslySetInnerHTML={{ __html: pageData.contentHtml }} />
           <div className="mt-6 flex justify-center md:justify-start gap-4">
             <Button variant="ghost" size="icon" asChild>
-              <Link href="#" aria-label="GitHub">
+              <Link href={pageData.socials.github} aria-label="GitHub">
                 <Github className="h-6 w-6" />
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link href="#" aria-label="LinkedIn">
+              <Link href={pageData.socials.linkedin} aria-label="LinkedIn">
                 <Linkedin className="h-6 w-6" />
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link href="#" aria-label="Medium">
+              <Link href={pageData.socials.medium} aria-label="Medium">
                 <Book className="h-6 w-6" />
               </Link>
             </Button>

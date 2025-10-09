@@ -1,42 +1,36 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
+import { getPageContent } from "@/lib/content";
 
-const experiences = [
-  {
-    role: "Senior Software Engineer",
-    company: "Tech Solutions Inc.",
-    period: "2020 - Present",
-    description: "Led the development of a large-scale e-commerce platform using Next.js and TypeScript. Mentored junior developers and improved deployment pipelines, reducing build times by 30%.",
-  },
-  {
-    role: "Mid-Level Developer",
-    company: "WebCrafters Co.",
-    period: "2018 - 2020",
-    description: "Developed and maintained client websites using React and Node.js. Collaborated with designers to create responsive and user-friendly interfaces.",
-  },
-  {
-    role: "Junior Developer",
-    company: "Innovate Startups",
-    period: "2016 - 2018",
-    description: "Assisted in building a SaaS application, focusing on front-end features with React and Redux. Gained foundational experience in an agile development environment.",
-  },
-];
+type Experience = {
+  role: string;
+  company: string;
+  period: string;
+  description: string;
+};
 
-export default function ExperiencePage() {
+type ExperienceContent = {
+  title: string;
+  subtitle: string;
+  experiences: Experience[];
+};
+
+export default async function ExperiencePage() {
+  const pageData = await getPageContent<ExperienceContent>('experience');
+
   return (
     <div className="space-y-8">
       <div className="text-center">
         <h1 className="font-headline text-4xl md:text-5xl font-bold text-primary">
-          Professional Experience
+          {pageData.title}
         </h1>
         <p className="mt-2 text-lg text-muted-foreground">
-          My journey in the world of software development.
+          {pageData.subtitle}
         </p>
       </div>
       <div className="relative">
         <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-border -translate-x-1/2 hidden md:block" aria-hidden="true"></div>
         <div className="space-y-12">
-          {experiences.map((exp, index) => (
+          {pageData.experiences.map((exp, index) => (
             <div
               key={index}
               className="md:grid md:grid-cols-2 md:gap-8 items-start relative"
