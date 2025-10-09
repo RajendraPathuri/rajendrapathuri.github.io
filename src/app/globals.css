@@ -4,47 +4,47 @@
 
 @layer base {
   :root {
-    --background: 175 73% 92%;
-    --foreground: 180 100% 15%;
-    --card: 175 60% 98%;
-    --card-foreground: 180 100% 15%;
-    --popover: 175 60% 98%;
-    --popover-foreground: 180 100% 15%;
-    --primary: 180 100% 25%;
-    --primary-foreground: 180 20% 95%;
-    --secondary: 176 40% 85%;
-    --secondary-foreground: 180 100% 20%;
-    --muted: 176 40% 88%;
-    --muted-foreground: 180 25% 40%;
-    --accent: 20 60% 50%;
+    --background: 210 20% 98%;
+    --foreground: 220 15% 15%;
+    --card: 210 20% 100%;
+    --card-foreground: 220 15% 15%;
+    --popover: 210 20% 100%;
+    --popover-foreground: 220 15% 15%;
+    --primary: 140 80% 30%;
+    --primary-foreground: 140 20% 95%;
+    --secondary: 210 15% 90%;
+    --secondary-foreground: 220 15% 20%;
+    --muted: 210 15% 95%;
+    --muted-foreground: 220 10% 45%;
+    --accent: 140 80% 40%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 175 20% 80%;
-    --input: 175 20% 85%;
-    --ring: 180 100% 25%;
+    --border: 210 10% 88%;
+    --input: 210 10% 92%;
+    --ring: 140 80% 30%;
     --radius: 0.5rem;
   }
   .dark {
-    --background: 180 20% 10%;
-    --foreground: 175 73% 92%;
-    --card: 180 20% 15%;
-    --card-foreground: 175 73% 92%;
-    --popover: 180 20% 15%;
-    --popover-foreground: 175 73% 92%;
-    --primary: 175 73% 88%;
-    --primary-foreground: 180 20% 10%;
-    --secondary: 180 20% 20%;
-    --secondary-foreground: 175 73% 92%;
-    --muted: 180 20% 20%;
-    --muted-foreground: 175 25% 70%;
-    --accent: 20 60% 50%;
+    --background: 220 15% 5%;
+    --foreground: 140 40% 85%;
+    --card: 220 15% 10%;
+    --card-foreground: 140 40% 85%;
+    --popover: 220 15% 10%;
+    --popover-foreground: 140 40% 85%;
+    --primary: 140 70% 55%;
+    --primary-foreground: 220 15% 5%;
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 140 40% 85%;
+    --muted: 220 15% 15%;
+    --muted-foreground: 140 20% 60%;
+    --accent: 140 80% 45%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 180 20% 25%;
-    --input: 180 20% 25%;
-    --ring: 175 73% 88%;
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 140 70% 55%;
   }
 }
 
