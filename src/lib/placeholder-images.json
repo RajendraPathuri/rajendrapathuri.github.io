@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile",
+      "description": "A portrait of a person for the about me page.",
+      "imageUrl": "https://picsum.photos/seed/profile/400/400",
+      "imageHint": "portrait professional"
+    },
+    {
+      "id": "project1",
+      "description": "Placeholder for first project.",
+      "imageUrl": "https://picsum.photos/seed/proj1/600/400",
+      "imageHint": "technology code"
+    },
+    {
+      "id": "project2",
+      "description": "Placeholder for second project.",
+      "imageUrl": "https://picsum.photos/seed/proj2/600/400",
+      "imageHint": "abstract tech"
+    },
+    {
+      "id": "project3",
+      "description": "Placeholder for third project.",
+      "imageUrl": "https://picsum.photos/seed/proj3/600/400",
+      "imageHint": "data visualization"
+    }
+  ]
 }
