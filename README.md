@@ -10,6 +10,7 @@ This is a personal portfolio and blog website built with Next.js, TypeScript, an
 -   **Responsive Design**: Fully responsive layout that works on all screen sizes.
 -   **Dark Mode**: Comes with a pre-configured dark theme.
 -   **Genkit Integration**: Includes setup for Google's Genkit for AI-powered features.
+-   **Static Export**: Configured for static site generation, ready for deployment on services like GitHub Pages.
 
 ## Getting Started
 
@@ -53,6 +54,7 @@ This will start the application in development mode with Turbopack. Open [http:/
 -   `content/`: Markdown files for the portfolio pages (About Me, Experience, etc.).
 -   `posts/`: Markdown files for your blog posts.
 -   `public/`: Static assets like images.
+-   `out/`: The static export of your site (generated after running `npm run build`).
 -   `tailwind.config.ts`: Configuration file for Tailwind CSS.
 -   `next.config.ts`: Configuration file for Next.js.
 
@@ -66,8 +68,25 @@ Updating the content of your portfolio and blog is simple.
 
 ## Deployment
 
-This project is ready to be deployed on any platform that supports Next.js, such as:
+This project is configured for static export, making it suitable for any static web host.
 
--   [Vercel](https://vercel.com/): The easiest way to deploy a Next.js application.
--   [Firebase App Hosting](https://firebase.google.com/docs/app-hosting): Pre-configured with an `apphosting.yaml` file.
--   Other platforms like Netlify, AWS Amplify, or a custom Node.js server.
+### Building for Production
+
+To create a production-ready static version of your site, run:
+
+```bash
+npm run build
+```
+
+This command will generate a static version of your application in the `out` directory. This is the directory you will deploy.
+
+### Deploying to GitHub Pages
+
+1.  **Push your code** to your GitHub repository.
+2.  Go to your repository's **Settings** tab.
+3.  Navigate to the **Pages** section in the sidebar.
+4.  Under "Build and deployment", select your **Source** as "Deploy from a branch".
+5.  Select your main branch and choose the `/out` folder as the source for your GitHub Pages site. If you can't select a folder, you may need to use a GitHub Action to deploy.
+6.  Save your changes. GitHub will build and deploy your site from the `out` directory.
+
+**Note on `next/image`**: Because we are exporting a static site, Next.js's default image optimization will not work. I have added `unoptimized: true` to the image configuration to allow images to be served statically.
