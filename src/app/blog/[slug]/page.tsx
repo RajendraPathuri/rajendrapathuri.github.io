@@ -47,9 +47,9 @@ export default async function PostPage({ params }: PostPageProps) {
 
         <Separator className="my-8" />
 
-        <div 
-          className="prose"
-          dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }} 
+        <div
+          className="prose dark:prose-invert"
+          dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }}
         />
       </article>
     );
