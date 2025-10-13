@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PostPageProps) {
   }
 }
 
-export default async function PostPage({ params }: PostPageProps) {
+export default async function PostPage({ params }: { params: { slug: string } }) {
   try {
     const postData = await getPostData(params.slug);
 
