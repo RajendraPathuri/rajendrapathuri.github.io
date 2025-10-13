@@ -3,12 +3,18 @@ import { format, parseISO } from 'date-fns';
 import { notFound } from 'next/navigation';
 import { Separator } from "@/components/ui/separator";
 
+type PostPageProps = {
+  params: {
+    slug: string;
+  };
+};
+
 export function generateStaticParams() {
   const paths = getAllPostIds();
-  return paths;
+  return paths.map(p => ({slug: p.params.slug}));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
+export async function generateMetadata({ params }: PostPageProps) {
   try {
     const postData = await getPostData(params.slug);
     return {
@@ -23,7 +29,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 }
 
-export default async function PostPage({ params }: { params: { slug: string } }) {
+export default async function PostPage({ params }: PostPageProps) {
   try {
     const postData = await getPostData(params.slug);
 
