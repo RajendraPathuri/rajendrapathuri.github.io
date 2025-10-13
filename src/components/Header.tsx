@@ -52,33 +52,35 @@ export default function Header() {
             Gitfolio Blogger
           </span>
         </Link>
-        <nav className="hidden md:flex flex-1 items-center gap-6">
-          {navLinks.map((link) => (
-            <NavLink key={link.href} {...link} />
-          ))}
-        </nav>
-        <div className="flex flex-1 items-center justify-end md:hidden">
-          <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
-            <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
-                <Menu className="h-6 w-6" />
-                <span className="sr-only">Open Menu</span>
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="left" className="pr-0">
-              <Link href="/" className="mr-6 flex items-center gap-2 mb-8">
-                <GitBranch className="h-6 w-6 text-primary" />
-                <span className="font-headline text-xl font-bold text-primary">
-                  Gitfolio Blogger
-                </span>
-              </Link>
-              <div className="flex flex-col space-y-6">
-                {navLinks.map((link) => (
-                  <NavLink key={link.href} {...link} />
-                ))}
-              </div>
-            </SheetContent>
-          </Sheet>
+        <div className="flex flex-1 items-center justify-end">
+          <nav className="hidden md:flex items-center gap-6">
+            {navLinks.map((link) => (
+              <NavLink key={link.href} {...link} />
+            ))}
+          </nav>
+          <div className="flex items-center justify-end md:hidden">
+            <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon">
+                  <Menu className="h-6 w-6" />
+                  <span className="sr-only">Open Menu</span>
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="left" className="pr-0">
+                <Link href="/" className="mr-6 flex items-center gap-2 mb-8">
+                  <GitBranch className="h-6 w-6 text-primary" />
+                  <span className="font-headline text-xl font-bold text-primary">
+                    Gitfolio Blogger
+                  </span>
+                </Link>
+                <div className="flex flex-col space-y-6">
+                  {navLinks.map((link) => (
+                    <NavLink key={link.href} {...link} />
+                  ))}
+                </div>
+              </SheetContent>
+            </Sheet>
+          </div>
         </div>
       </div>
     </header>
