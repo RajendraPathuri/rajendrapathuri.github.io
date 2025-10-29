@@ -1,21 +1,25 @@
 ---
 title: "Certifications & Awards"
-subtitle: "A testament to my commitment to continuous learning and growth."
+subtitle: "Professional certifications demonstrating expertise in cloud security."
 certifications:
-  - title: "Certified Next.js Developer"
-    issuer: "Vercel"
+  - title: "AWS Certified Security - Specialty"
+    issuer: "Amazon Web Services"
     date: "2023"
-    skills: ["Next.js", "React", "Server Components", "Performance"]
+    skills: ["AWS Security", "IAM", "Data Protection", "Incident Response"]
+  - title: "Certified Information Systems Security Professional (CISSP)"
+    issuer: "ISC2"
+    date: "2024"
+    skills: ["Security Architecture", "Risk Management", "Asset Security", "Identity Management"]
+  - title: "Certified Cloud Security Professional (CCSP)"
+    issuer: "ISC2"
+    date: "2024"
+    skills: ["Cloud Security", "Compliance", "Data Security", "Infrastructure Security"]
   - title: "AWS Certified Solutions Architect - Associate"
     issuer: "Amazon Web Services"
     date: "2022"
     skills: ["AWS", "Cloud Architecture", "EC2", "S3", "VPC"]
-  - title: "TypeScript for Professionals"
-    issuer: "CodeAcademy"
-    date: "2021"
-    skills: ["TypeScript", "Static Typing", "Advanced Types"]
-  - title: "Certified Kubernetes Application Developer (CKAD)"
-    issuer: "The Linux Foundation"
-    date: "2020"
-    skills: ["Kubernetes", "Docker", "Microservices", "CI/CD"]
+  - title: "Certified Ethical Hacker (CEH)"
+    issuer: "EC-Council"
+    date: "2023"
+    skills: ["Penetration Testing", "Vulnerability Assessment", "Security Testing", "Ethical Hacking"]
 ---

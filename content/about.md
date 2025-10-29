@@ -1,11 +1,15 @@
 ---
-name: "John Doe"
-title: "Full-Stack Developer & Tech Enthusiast"
+name: "Venkata Pathuri"
+title: "Cloud Security Engineer"
 profileImage: "profile"
 socials:
-  github: "#"
-  linkedin: "#"
-  medium: "#"
+  github: "https://github.com/rajendrapathuri"
+  linkedin: "https://linkedin.com/in/vpathuri"
+  medium: "https://medium.com/@vpathuri"
 ---
 
-Welcome to my digital space. I'm a passionate developer with a knack for building elegant and efficient solutions. I specialize in modern web technologies and love to explore the intersection of code and creativity.
+Results-driven Cloud Security Engineer with 3+ years of experience securing multi-cloud environments across AWS, Azure, and GCP. I specialize in implementing zero-trust architectures, automating security controls, and designing scalable cloud security solutions. 
+
+Passionate about DevSecOps, threat detection, and building secure-by-design systems. I've reduced security vulnerabilities by 65% through automated scanning and remediation pipelines, and I'm committed to making cloud infrastructure safer for everyone.
+
+When I'm not securing cloud environments, you'll find me contributing to open-source security projects, participating in CTF competitions, or writing about cloud security best practices.
