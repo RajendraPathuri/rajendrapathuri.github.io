@@ -23,12 +23,18 @@ export async function generateStaticParams() {
   return paths;
 }
 
-export default async function NotePage({ params }: { params: { slug: string[] } }) {
-  const slug = params.slug || [];
+export default async function NotePage({ 
+  params 
+}: { 
+  params: Promise<{ slug?: string[] }> 
+}) {
+  const { slug: slugParam } = await params;
+  const slug = slugParam || [];
+  
   try {
     const note = await getNoteContent(slug);
     return (
-      <div className="prose">
+      <div className="prose prose-lg dark:prose-invert max-w-none prose-headings:text-primary prose-a:text-primary">
         <h1>{note.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: note.contentHtml }} />
       </div>
@@ -36,11 +42,11 @@ export default async function NotePage({ params }: { params: { slug: string[] } 
   } catch (e) {
     // This will render the layout with a prompt to select a note.
     if (slug.length === 0) {
-        return (
-            <div className="flex h-full items-center justify-center text-center">
-                <p className="text-muted-foreground">Select a note from the sidebar to get started.</p>
-            </div>
-        )
+      return (
+        <div className="flex h-full items-center justify-center text-center">
+          <p className="text-muted-foreground">Select a note from the sidebar to get started.</p>
+        </div>
+      );
     }
     notFound();
   }
