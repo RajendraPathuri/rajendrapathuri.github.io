@@ -56,7 +56,7 @@ export default function NotesSidebar({ notes, level = 0 }: NotesSidebarProps) {
             href={itemPath}
             className={cn(
               "flex items-center gap-2 p-2 rounded-md transition-colors",
-              isActive ? "bg-accent text-accent-foreground" : "hover:bg-muted"
+              isActive ? "bg-primary/20 text-primary" : "hover:bg-muted"
             )}
             style={{ paddingLeft: `${(level * 1) + 0.5}rem` }}
           >

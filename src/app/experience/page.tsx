@@ -39,11 +39,11 @@ export default async function ExperiencePage() {
                 <p className="text-sm text-muted-foreground font-medium">{exp.period}</p>
               </div>
               <div className={index % 2 === 0 ? "md:order-1" : "md:order-2"}>
-                <div className="absolute left-1/2 top-2 w-3 h-3 bg-accent rounded-full -translate-x-1/2 hidden md:block" aria-hidden="true"></div>
+                <div className="absolute left-1/2 top-2 w-3 h-3 bg-primary rounded-full -translate-x-1/2 hidden md:block" aria-hidden="true"></div>
                 <Card className="mt-2">
                   <CardHeader>
                     <CardTitle className="font-headline text-2xl">{exp.role}</CardTitle>
-                    <p className="text-accent font-semibold">{exp.company}</p>
+                    <p className="text-primary font-semibold">{exp.company}</p>
                   </CardHeader>
                   <CardContent>
                     <p>{exp.description}</p>

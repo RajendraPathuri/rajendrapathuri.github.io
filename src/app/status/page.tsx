@@ -49,7 +49,7 @@ export default async function StatusPage() {
             <CardContent className="text-center">
               {item.availability ? (
                 <>
-                  <p className="text-xl font-semibold text-accent">{item.availability}</p>
+                  <p className="text-xl font-semibold text-primary">{item.availability}</p>
                   <p className="text-sm text-muted-foreground mt-2">{item.description}</p>
                 </>
               ) : (

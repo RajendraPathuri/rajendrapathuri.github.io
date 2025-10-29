@@ -27,7 +27,7 @@ export default function PostCard({ post }: PostCardProps) {
         <p>{excerpt}</p>
       </CardContent>
       <CardFooter>
-        <Button asChild variant="link" className="text-accent p-0 h-auto">
+        <Button asChild variant="link" className="text-primary p-0 h-auto">
           <Link href={`/blog/${id}`}>
             Read More <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
