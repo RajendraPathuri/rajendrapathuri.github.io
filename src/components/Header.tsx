@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { GitBranch, Menu, X } from "lucide-react";
+import { CloudShield, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -44,7 +44,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center gap-2">
-          <GitBranch className="h-6 w-6 text-primary" />
+          <CloudShield className="h-6 w-6 text-primary" />
           <span className="font-headline text-xl font-bold text-primary">
             Gitfolio Blogger
           </span>
@@ -65,7 +65,7 @@ export default function Header() {
               </SheetTrigger>
               <SheetContent side="left" className="pr-0">
                 <Link href="/" className="mr-6 flex items-center gap-2 mb-8">
-                  <GitBranch className="h-6 w-6 text-primary" />
+                  <CloudShield className="h-6 w-6 text-primary" />
                   <span className="font-headline text-xl font-bold text-primary">
                     Gitfolio Blogger
                   </span>
