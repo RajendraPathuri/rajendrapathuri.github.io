@@ -4,9 +4,9 @@ import { notFound } from 'next/navigation';
 import { Separator } from "@/components/ui/separator";
 
 type PostPageProps = {
-  params: Promise<{
+  params: {
     slug: string;
-  }>;
+  };
 };
 
 export async function generateStaticParams() {
@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PostPageProps) {
   try {
-    const { slug } = await params;
+    const { slug } = params;
     const postData = await getPostData(slug);
     return {
       title: `${postData.title} | Gitfolio Blogger`,
@@ -32,16 +32,16 @@ export async function generateMetadata({ params }: PostPageProps) {
 
 export default async function PostPage({ params }: PostPageProps) {
   try {
-    const { slug } = await params;
+    const { slug } = params;
     const postData = await getPostData(slug);
 
     return (
       <article className="max-w-4xl mx-auto px-4 py-8">
         <header className="mb-8 text-center">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold text-primary mb-3">
+          <h1 className="font-headline text-3xl md:text-5xl font-bold text-primary mb-3">
             {postData.title}
           </h1>
-          <div className="text-muted-foreground">
+          <div className="text-muted-foreground text-sm md:text-base">
             <span>By {postData.author} on </span>
             <time dateTime={postData.date}>
               {format(parseISO(postData.date), 'MMMM d, yyyy')}

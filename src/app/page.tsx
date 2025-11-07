@@ -22,7 +22,7 @@ export default async function AboutPage() {
 
   return (
     <div className="flex items-center justify-center flex-1">
-      <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16 max-w-5xl mx-auto p-4">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 max-w-5xl mx-auto p-4 sm:p-6 md:p-8">
         <div className="w-48 h-48 md:w-64 md:h-64 relative flex-shrink-0">
           {profileImage && (
             <Image
@@ -36,8 +36,8 @@ export default async function AboutPage() {
           )}
         </div>
         <div className="text-center md:text-left">
-          <h1 className="font-headline text-4xl md:text-6xl font-bold text-primary">{pageData.name}</h1>
-          <p className="mt-2 text-xl text-muted-foreground">{pageData.title}</p>
+          <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold text-primary">{pageData.name}</h1>
+          <p className="mt-2 text-lg sm:text-xl text-muted-foreground">{pageData.title}</p>
           <div className="mt-4 max-w-lg prose dark:prose-invert" dangerouslySetInnerHTML={{ __html: pageData.contentHtml }} />
           <div className="mt-6 flex justify-center md:justify-start gap-4">
             <Button variant="ghost" size="icon" asChild>

@@ -26,15 +26,15 @@ export default async function ProjectsPage() {
 
   return (
     <div className="space-y-8">
-      <div className="text-center">
+      <div className="text-center px-4">
         <h1 className="font-headline text-4xl md:text-5xl font-bold text-primary">
           {pageData.title}
         </h1>
-        <p className="mt-2 text-lg text-muted-foreground">
+        <p className="mt-2 text-lg text-muted-foreground max-w-3xl mx-auto">
           {pageData.subtitle}
         </p>
       </div>
-      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-8">
         {pageData.projects.map((project, index) => {
           const projectImage = PlaceHolderImages.find(p => p.id === project.image);
           return (
@@ -51,7 +51,7 @@ export default async function ProjectsPage() {
                 </div>
               )}
               <CardHeader>
-                <CardTitle className="font-headline text-2xl">{project.title}</CardTitle>
+                <CardTitle className="font-headline text-xl md:text-2xl">{project.title}</CardTitle>
                 <CardDescription>{project.description}</CardDescription>
               </CardHeader>
               <CardContent className="flex-grow">
