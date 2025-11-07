@@ -2,14 +2,22 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { CloudLightning, Menu, X } from "lucide-react";
+import { CloudLightning, Menu } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/", label: "About Me" },
+  { href: "/experience", label: "Experience" },
   { href: "/certifications", label: "Certifications" },
   { href: "/projects", label: "Projects" },
   { href: "/blog", label: "Blog" },
@@ -64,6 +72,10 @@ export default function Header() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="left" className="pr-0">
+                <SheetHeader>
+                  <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
+                  <SheetDescription className="sr-only">A list of navigation links.</SheetDescription>
+                </SheetHeader>
                 <Link href="/" className="mr-6 flex items-center gap-2 mb-8">
                   <CloudLightning className="h-6 w-6 text-primary" />
                   <span className="font-headline text-xl font-bold text-primary">
