@@ -15,8 +15,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PostPageProps) {
+  const { slug } = params;
   try {
-    const { slug } = params;
     const postData = await getPostData(slug);
     return {
       title: `${postData.title} | Gitfolio Blogger`,
@@ -31,8 +31,8 @@ export async function generateMetadata({ params }: PostPageProps) {
 }
 
 export default async function PostPage({ params }: PostPageProps) {
+  const { slug } = params;
   try {
-    const { slug } = params;
     const postData = await getPostData(slug);
 
     return (
