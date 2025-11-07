@@ -13,8 +13,6 @@ const navLinks = [
   { href: "/certifications", label: "Certifications" },
   { href: "/projects", label: "Projects" },
   { href: "/blog", label: "Blog" },
-  { href: "/status", label: "Current Status" },
-  { href: "/notes", label: "Notes" },
 ];
 
 export default function Header() {
