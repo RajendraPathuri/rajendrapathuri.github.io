@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Gitfolio Blogger',
+  title: 'x0vrpp',
   description: 'A simple portfolio and blog for GitHub users.',
 };
 
