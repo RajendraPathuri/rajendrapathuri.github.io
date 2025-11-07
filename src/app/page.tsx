@@ -33,6 +33,7 @@ export default async function AboutPage() {
               height={256}
               className="rounded-full object-cover shadow-lg border-4 border-card"
               data-ai-hint={profileImage.imageHint}
+              priority
             />
           )}
         </div>
