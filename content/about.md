@@ -6,6 +6,7 @@ socials:
   github: "https://github.com/rajendrapathuri"
   linkedin: "https://linkedin.com/in/vpathuri"
   medium: "https://medium.com/@vpathuri"
+  resume: "/resume.pdf"
 ---
 
 Results-driven Cloud Security Engineer with 3+ years of experience securing multi-cloud environments across AWS, Azure, and GCP. I specialize in implementing zero-trust architectures, automating security controls, and designing scalable cloud security solutions. 

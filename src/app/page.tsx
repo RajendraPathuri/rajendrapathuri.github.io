@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Github, Linkedin, Book } from 'lucide-react';
+import { Github, Linkedin, Book, FileText } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { getPageContent } from '@/lib/content';
@@ -13,6 +13,7 @@ type AboutContent = {
     github: string;
     linkedin: string;
     medium: string;
+    resume: string;
   }
 };
 
@@ -53,6 +54,11 @@ export default async function AboutPage() {
             <Button variant="ghost" size="icon" asChild>
               <Link href={pageData.socials.medium} aria-label="Medium">
                 <Book className="h-6 w-6" />
+              </Link>
+            </Button>
+            <Button variant="ghost" size="icon" asChild>
+              <Link href={pageData.socials.resume} aria-label="Resume">
+                <FileText className="h-6 w-6" />
               </Link>
             </Button>
           </div>
