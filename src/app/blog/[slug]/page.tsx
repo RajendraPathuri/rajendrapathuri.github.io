@@ -4,9 +4,9 @@ import { notFound } from 'next/navigation';
 import { Separator } from "@/components/ui/separator";
 
 type PostPageProps = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
 export async function generateStaticParams() {
@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PostPageProps) {
-  const { slug } = params;
+  const { slug } = await params;
   try {
     const postData = await getPostData(slug);
     return {
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PostPageProps) {
 }
 
 export default async function PostPage({ params }: PostPageProps) {
-  const { slug } = params;
+  const { slug } = await params;
   try {
     const postData = await getPostData(slug);
 
