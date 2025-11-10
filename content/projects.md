@@ -17,7 +17,7 @@ projects:
   - title: "AI-Powered Threat Detection System"
     description: "Machine learning-based threat detection system that analyzes CloudWatch and Azure Sentinel logs to detect anomalous behavior. Achieved 94% accuracy in identifying potential security threats and prevented 15+ breaches. Leverages Python and scikit-learn for real-time threat analysis."
     image: "project3"
-    tags: ["Python", "Machine Learning", "AWS", "Threat Detection", "Security"]
+    tags: ["Python", "Machine Learning", "AWS", "Threat Detection", "Security", AI]
     liveUrl: "#"
     repoUrl: "#"
   - title: "Kubernetes Security Architecture"
