@@ -1,13 +1,13 @@
 ---
 title: "My Projects"
-subtitle: "Open-source contributions and security research projects."
+subtitle: "Lean the cloud in more interesting way"
 projects:
-  - title: "Cloud Security Automation Framework"
-    description: "Open-source Python framework for automated cloud security scanning across AWS, Azure, and GCP. Features modular architecture supporting custom security policies, automated remediation, and integration with Slack/PagerDuty for alerting. Adopted by 50+ organizations with 800+ GitHub stars."
+  - title: "Cloud Security Preperation"
+    description: "This application assists users in learning about cloud security topics. Simply input a keyword, and you’ll receive a comparison and related situational interview questions."
     image: "project1"
-    tags: ["Python", "AWS", "Azure", "GCP", "Security Automation"]
-    liveUrl: "#"
-    repoUrl: "https://github.com/priyasharma/cloud-sec-automation"
+    tags: ["Gemini", "AWS", "Azure", "GCP", "Cloud Security Prep"]
+    liveUrl: "https://ai.studio/apps/drive/1TnmUHlGQJUOXa-17LiveG2KxZBxgG5O2"
+    repoUrl: "https://github.com/RajendraPathuri/Cloud-Security-Preperation/"
   - title: "Multi-Cloud Security Benchmarking Tool"
     description: "Go-based tool for automated compliance assessment against CIS Benchmarks, NIST CSF, and custom security policies. Reduced security assessment time from 8 hours to 15 minutes with automated scanning and reporting capabilities. Featured at local security meetup with 200+ attendees."
     image: "project2"
