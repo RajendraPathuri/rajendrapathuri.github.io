@@ -3,7 +3,7 @@
     {
       "id": "profile",
       "description": "A portrait of a person for the about me page.",
-      "imageUrl": "./profile.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/RajendraPathuri/rajendrapathuri.github.io/refs/heads/main/src/lib/profile.jpg",
       "imageHint": "portrait professional"
     },
     {
