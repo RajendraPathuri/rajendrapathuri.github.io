@@ -22,6 +22,8 @@ const navLinks = [
   { href: "/blog", label: "Blog" },
 ];
 
+import { ModeToggle } from "@/components/mode-toggle";
+
 export default function Header() {
   const pathname = usePathname();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -46,23 +48,27 @@ export default function Header() {
       </Link>
     );
   };
-  
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center">
-        <Link href="/" className="mr-6 flex items-center gap-2">
+      <div className="w-full px-4 md:px-8 flex h-16 items-center justify-between">
+        <Link href="/" className="flex items-center gap-2">
           <CloudLightning className="h-6 w-6 text-primary" />
-          <span className="font-headline text-xl font-bold text-primary">
+          <span className="font-cyber text-xl font-bold text-primary">
             x0vrpp
           </span>
         </Link>
-        <div className="flex flex-1 items-center justify-end">
+        <div className="flex items-center gap-6">
           <nav className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (
               <NavLink key={link.href} {...link} />
             ))}
           </nav>
-          <div className="flex items-center justify-end md:hidden">
+          <div className="hidden md:block">
+            <ModeToggle />
+          </div>
+          <div className="flex items-center md:hidden gap-4">
+            <ModeToggle />
             <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
@@ -77,7 +83,7 @@ export default function Header() {
                 </SheetHeader>
                 <Link href="/" className="mr-6 flex items-center gap-2 mb-8">
                   <CloudLightning className="h-6 w-6 text-primary" />
-                  <span className="font-headline text-xl font-bold text-primary">
+                  <span className="font-cyber text-xl font-bold text-primary">
                     x0vrpp
                   </span>
                 </Link>

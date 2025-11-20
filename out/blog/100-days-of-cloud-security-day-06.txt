@@ -1,0 +1,72 @@
+1:"$Sreact.fragment"
+2:I[1458,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-740805674b8356ef.js","451","static/chunks/451-c2def8cce98c3140.js","177","static/chunks/app/layout-870cdc0898a1f2e6.js"],"ThemeProvider"]
+3:I[6970,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-740805674b8356ef.js","451","static/chunks/451-c2def8cce98c3140.js","177","static/chunks/app/layout-870cdc0898a1f2e6.js"],"default"]
+4:I[9766,[],""]
+5:I[8924,[],""]
+6:I[704,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-740805674b8356ef.js","451","static/chunks/451-c2def8cce98c3140.js","177","static/chunks/app/layout-870cdc0898a1f2e6.js"],"Toaster"]
+8:I[4431,[],"OutletBoundary"]
+a:I[5278,[],"AsyncMetadataOutlet"]
+c:I[4431,[],"ViewportBoundary"]
+e:I[4431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[7150,[],""]
+:HL["/_next/static/css/646ef98856fbea42.css","style"]
+0:{"P":null,"b":"JMtuDo3EXuReSaRmaYdn1","p":"","c":["","blog","100-days-of-cloud-security-day-06"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","100-days-of-cloud-security-day-06","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/646ef98856fbea42.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fira+Code:wght@400;700&family=Orbitron:wght@400;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"className":"font-body antialiased min-h-screen bg-background text-foreground","children":["$","$L2",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","div",null,{"className":"relative flex min-h-dvh flex-col","children":[["$","$L3",null,{}],["$","main",null,{"className":"flex-1 container py-10","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t","children":["$","div",null,{"className":"container flex flex-col items-center justify-center gap-4 py-8 md:h-24 md:flex-row","children":["$","div",null,{"className":"flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-cloud-lightning h-6 w-6 text-primary","children":[["$","path","1cez44",{"d":"M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"}],["$","path","1t22er",{"d":"m13 12-3 5h4l-3 5"}],"$undefined"]}],["$","p",null,{"className":"text-center text-sm leading-loose text-muted-foreground md:text-left","children":["© ",2025," Venkata Pathuri. All Rights Reserved."]}]]}]}]}]]}],["$","$L6",null,{}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","100-days-of-cloud-security-day-06","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[8474,["909","static/chunks/909-740805674b8356ef.js","953","static/chunks/app/blog/%5Bslug%5D/page-586f9b997c6ba5d5.js"],"Separator"]
+13:T1742,<h1>Day 6: Defend - <code>beanstalk_secrets</code></h1>
+<h2>Overview</h2>
+<p>Welcome back to Day 6 of our cloud security journey! Today, we dive deeper into defending our applications by securing sensitive information stored in AWS. Building on the foundational work we accomplished in Day 5, where we established key IAM policies, we now focus on implementing best practices to protect our Elastic Beanstalk environments from potential security breaches. With the sensitive nature of secrets management, it’s crucial to ensure that only authorized users have access while maintaining a robust monitoring strategy.</p>
+<h2>Learning Objectives</h2>
+<p>By the end of today’s session, you will master the art of securely implementing AWS Elastic Beanstalk while effectively managing secrets. You’ll learn how to enforce least privilege access for IAM users and roles, implement secret rotation, enable logging, and set up alerts for suspicious activities. This knowledge will empower you to build a more resilient cloud environment and mitigate risks associated with unauthorized access to sensitive data.</p>
+<h2>Deep Dive</h2>
+<h3>Understanding Elastic Beanstalk Security</h3>
+<p>Elastic Beanstalk is a powerful platform for deploying applications in the cloud. However, with that power comes responsibility—especially concerning the management of sensitive information such as API keys and database credentials. Secrets management in AWS is primarily handled through the AWS Secrets Manager, which allows for secure storage and retrieval of secrets.</p>
+<h4>Privilege Escalation Vectors</h4>
+<p>In our <code>beanstalk_secrets</code> scenario, potential privilege escalation vectors were identified. For instance, if users can create access keys, they may gain unauthorized access to resources. Therefore, applying the principle of least privilege is imperative. This means we only grant users the permissions they absolutely need to perform their job functions.</p>
+<h3>Implementing Least Privilege Principles</h3>
+<p>During our task completion today, we focused on two IAM users. For User 1, we verified that their permissions were appropriately limited. User 2 had permissions related to access key creation removed, ensuring they could no longer generate new credentials that could lead to unauthorized access.</p>
+<h3>Monitoring and Logging</h3>
+<p>With AWS CloudTrail, we enabled comprehensive monitoring. This service logs all API calls across your account, providing invaluable insights into who accessed what and when. By directing these logs to an S3 bucket and integrating with CloudWatch Logs, we set up a robust alerting mechanism for any suspicious activity, such as unauthorized attempts to access or modify secrets.</p>
+<h3>Secret Rotation</h3>
+<p>Secret rotation is a best practice that helps minimize risks associated with long-lived credentials. AWS Secrets Manager enables automatic rotation of secrets, which is crucial to maintaining the security posture of your application. In our current setup, we ensured that only authorized roles could retrieve and rotate secrets, effectively preventing unauthorized access to sensitive information.</p>
+<h2>Hands-On Practice</h2>
+<ol>
+<li>
+<p><strong>Create a New Beanstalk Environment</strong>: Use the AWS Management Console or CLI to create a new Elastic Beanstalk environment. Verify that the service role and EC2 role are correctly configured.</p>
+</li>
+<li>
+<p><strong>User Permissions</strong>: Review and modify IAM policies for both users. For User 2, explicitly deny <code>iam:CreateAccessKey</code>. Verify that the user can no longer create or manage access keys.</p>
+</li>
+<li>
+<p><strong>Enable CloudTrail</strong>: Ensure that CloudTrail is enabled in all regions. Configure it to log and deliver logs to your designated S3 bucket. Check the integration with CloudWatch Logs for real-time monitoring.</p>
+</li>
+<li>
+<p><strong>Test Secret Rotation</strong>: Set up a secret in AWS Secrets Manager and configure the rotation settings. Verify that only the correct IAM roles can access or rotate the secrets.</p>
+</li>
+</ol>
+<h3>Expected Outcomes</h3>
+<p>After completing these steps, you should have a secure Elastic Beanstalk environment where:</p>
+<ul>
+<li>User 1 operates under least privilege.</li>
+<li>User 2 cannot create access keys.</li>
+<li>CloudTrail is logging activities, and alerts are set up for any suspicious actions.</li>
+<li>Secrets are managed securely with automatic rotation enabled.</li>
+</ul>
+<h3>Common Troubleshooting Tips</h3>
+<ul>
+<li>If CloudTrail is not logging, check your IAM permissions to ensure they allow logging activities.</li>
+<li>If users still have access to create keys, revisit the IAM policies to ensure the <code>iam:CreateAccessKey</code> permission is explicitly denied.</li>
+<li>For issues with secret retrieval, confirm that the correct IAM roles are associated with the secrets in AWS Secrets Manager.</li>
+</ul>
+<h2>Key Takeaways</h2>
+<p>Today, we fortified our Elastic Beanstalk environment by implementing robust security practices. We learned the importance of the least privilege principle to restrict unnecessary access and the necessity of continuous monitoring through AWS CloudTrail. By enabling secret rotation and ensuring that only authorized roles can manage secrets, we significantly reduced the risk of unauthorized access to sensitive information.</p>
+<h2>Real-World Applications</h2>
+<p>In production environments, applying these security measures can drastically reduce the risk of data breaches and unauthorized access. Industries such as finance, healthcare, and e-commerce, which handle sensitive information, must prioritize securing secrets to maintain compliance and protect user data. The best practices discussed today are vital components of a comprehensive cloud security strategy that can adapt to evolving threats.</p>
+<hr>
+<p><strong>Journey Progress:</strong> 6/100 Days Complete 🚀</p>
+7:["$","article",null,{"className":"max-w-4xl mx-auto px-4 py-8","children":[["$","header",null,{"className":"mb-8 text-center","children":[["$","h1",null,{"className":"font-headline text-3xl md:text-5xl font-bold text-primary mb-3","children":"100 Days of Cloud Security - Day 6: Defend - `beanstalk_secrets`"}],["$","div",null,{"className":"text-muted-foreground text-sm md:text-base","children":[["$","span",null,{"children":["By ","Venkata Pathuri"," on "]}],["$","time",null,{"dateTime":"2025-11-15","children":"November 15, 2025"}]]}]]}],["$","$L12",null,{"className":"my-8"}],["$","div",null,{"className":"prose prose-lg dark:prose-invert max-w-none prose-headings:text-primary prose-a:text-primary","dangerouslySetInnerHTML":{"__html":"$13"}}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+14:I[622,[],"IconMark"]
+b:{"metadata":[["$","title","0",{"children":"100 Days of Cloud Security - Day 6: Defend - `beanstalk_secrets` | Gitfolio Blogger"}],["$","meta","1",{"name":"description","content":"Day 6 of my cloud security journey - Defend - `beanstalk_secrets`"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}],["$","$L14","3",{}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

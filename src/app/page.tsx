@@ -29,16 +29,16 @@ export default async function AboutPage() {
             <Image
               src={profileImage.imageUrl}
               alt={profileImage.description}
-              width={256}
-              height={256}
-              className="rounded-full object-cover shadow-lg border-4 border-card"
+              fill
+              sizes="(max-width: 768px) 192px, 256px"
+              className="rounded-full object-cover object-[center_20%] shadow-lg border-4 border-card"
               data-ai-hint={profileImage.imageHint}
               priority
             />
           )}
         </div>
         <div className="text-center md:text-left">
-          <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold text-primary">{pageData.name}</h1>
+          <h1 className="font-cyber text-4xl sm:text-5xl md:text-6xl font-bold text-primary">{pageData.name}</h1>
           <p className="mt-2 text-lg sm:text-xl text-muted-foreground">{pageData.title}</p>
           <div className="mt-4 max-w-lg prose dark:prose-invert" dangerouslySetInnerHTML={{ __html: pageData.contentHtml }} />
           <div className="mt-6 flex justify-center md:justify-start gap-4">

@@ -22,7 +22,7 @@ export default async function CertificationsPage() {
   return (
     <div className="space-y-8">
       <div className="text-center px-4">
-        <h1 className="font-headline text-4xl md:text-5xl font-bold text-primary">
+        <h1 className="font-cyber text-4xl md:text-5xl font-bold text-primary">
           {pageData.title}
         </h1>
         <p className="mt-2 text-lg text-muted-foreground max-w-3xl mx-auto">

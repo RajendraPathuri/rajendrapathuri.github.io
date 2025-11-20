@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+2:I[1458,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-740805674b8356ef.js","451","static/chunks/451-c2def8cce98c3140.js","177","static/chunks/app/layout-870cdc0898a1f2e6.js"],"ThemeProvider"]
+3:I[6970,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-740805674b8356ef.js","451","static/chunks/451-c2def8cce98c3140.js","177","static/chunks/app/layout-870cdc0898a1f2e6.js"],"default"]
+4:I[9766,[],""]
+5:I[8924,[],""]
+6:I[704,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-740805674b8356ef.js","451","static/chunks/451-c2def8cce98c3140.js","177","static/chunks/app/layout-870cdc0898a1f2e6.js"],"Toaster"]
+8:I[4431,[],"OutletBoundary"]
+a:I[5278,[],"AsyncMetadataOutlet"]
+c:I[4431,[],"ViewportBoundary"]
+e:I[4431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[7150,[],""]
+:HL["/_next/static/css/646ef98856fbea42.css","style"]
+0:{"P":null,"b":"JMtuDo3EXuReSaRmaYdn1","p":"","c":["","blog","100-days-of-cloud-security-day-00"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","100-days-of-cloud-security-day-00","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/646ef98856fbea42.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fira+Code:wght@400;700&family=Orbitron:wght@400;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"className":"font-body antialiased min-h-screen bg-background text-foreground","children":["$","$L2",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","div",null,{"className":"relative flex min-h-dvh flex-col","children":[["$","$L3",null,{}],["$","main",null,{"className":"flex-1 container py-10","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t","children":["$","div",null,{"className":"container flex flex-col items-center justify-center gap-4 py-8 md:h-24 md:flex-row","children":["$","div",null,{"className":"flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-cloud-lightning h-6 w-6 text-primary","children":[["$","path","1cez44",{"d":"M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"}],["$","path","1t22er",{"d":"m13 12-3 5h4l-3 5"}],"$undefined"]}],["$","p",null,{"className":"text-center text-sm leading-loose text-muted-foreground md:text-left","children":["© ",2025," Venkata Pathuri. All Rights Reserved."]}]]}]}]}]]}],["$","$L6",null,{}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","100-days-of-cloud-security-day-00","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[8474,["909","static/chunks/909-740805674b8356ef.js","953","static/chunks/app/blog/%5Bslug%5D/page-586f9b997c6ba5d5.js"],"Separator"]
+13:T145e,<h1>Day 0: Lab Setup</h1>
+<h2>Overview</h2>
+<p>Welcome to the start of an exhilarating 100-day adventure into the world of cloud security! Today marks Day 0 of our journey, where we lay the foundational groundwork for what lies ahead. Building a robust lab environment is crucial; it’s where theory meets practice, and the skills we develop will be critical as we venture deeper into cloud security concepts.</p>
+<h2>Learning Objectives</h2>
+<p>By the end of today, you will have successfully set up a lab environment tailored for cloud security tasks. You'll master the installation and configuration of essential tools like Claude Code, CloudGoat, Prowler, ScoutSuite, and CloudMapper. This knowledge will empower you to assess cloud environments for vulnerabilities and misconfigurations, setting the stage for more advanced topics in upcoming days.</p>
+<h2>Deep Dive</h2>
+<h3>Setting Up Your Lab</h3>
+<p>The first step in our cloud security journey is establishing a functional lab. The idea here is to create an environment where you can experiment, learn, and practice securely.</p>
+<ol>
+<li>
+<p><strong>Installing Claude Code</strong>: This terminal-based tool will become invaluable as we progress, allowing us to easily execute scripts and commands. Once installed, you'll see a sleek interface that enhances your productivity.</p>
+</li>
+<li>
+<p><strong>Configuring CloudGoat</strong>: Using the provided script at <code>scripts/cloudgoat-install.sh</code>, we installed CloudGoat, which is a penetration testing tool designed specifically for AWS environments. It simulates real-world scenarios that cloud security professionals face, allowing you to practice your skills in a controlled setting.</p>
+</li>
+<li>
+<p><strong>What About Other Tools?</strong>: Alongside CloudGoat, we installed Prowler, ScoutSuite, and CloudMapper. Each of these tools plays a unique role:</p>
+<ul>
+<li><strong>Prowler</strong>: This tool scans your cloud environment for vulnerabilities and compliance issues, providing a comprehensive assessment of your security posture. Imagine running a scan and seeing a detailed report highlighting potential misconfigurations—this is where Prowler shines.</li>
+<li><strong>ScoutSuite</strong>: Think of ScoutSuite as your cloud security auditor. It gathers configuration data and identifies risks, ensuring you remain compliant with industry standards.</li>
+<li><strong>CloudMapper</strong>: This tool allows you to visualize your AWS resources and their interconnections, making it easier to understand your cloud architecture. Picture a digital map of your cloud resources, highlighting areas that need attention.</li>
+</ul>
+</li>
+</ol>
+<h3>Best Practices</h3>
+<ul>
+<li><strong>Documentation</strong>: Keep a detailed record of your lab setup process. This not only helps you understand what you did but also serves as a reference for troubleshooting later.</li>
+<li><strong>Resource Monitoring</strong>: Be mindful of your cloud usage. Tools like AWS Budgets can help you track spending and avoid unexpected charges.</li>
+</ul>
+<h2>Hands-On Practice</h2>
+<p>Now that your lab is set up, let’s verify everything is working as intended:</p>
+<ol>
+<li>
+<p><strong>Verify Claude Code Installation</strong>:
+Open your terminal and type:</p>
+<pre><code class="language-bash">claude --version
+</code></pre>
+<p>You should see the version number of Claude Code. If not, check your installation steps.</p>
+</li>
+<li>
+<p><strong>Run CloudGoat</strong>:
+Execute the following command to ensure CloudGoat is properly installed:</p>
+<pre><code class="language-bash">cloudgoat help
+</code></pre>
+<p>You should see a list of commands and options available with CloudGoat.</p>
+</li>
+<li>
+<p><strong>Check Prowler</strong>:
+To verify Prowler, run:</p>
+<pre><code class="language-bash">./prowler -h
+</code></pre>
+<p>A help menu will appear, confirming your installation was successful.</p>
+</li>
+</ol>
+<h3>Troubleshooting Tips</h3>
+<ul>
+<li>If you encounter issues with installations, revisit the installation scripts for errors.</li>
+<li>Make sure you have the necessary permissions in your cloud environment to run these tools.</li>
+</ul>
+<h2>Key Takeaways</h2>
+<p>Today’s setup was not just about installing software; it was about creating a secure, interactive environment where we’ll explore cloud security landscapes. As we move forward, these tools will be our eyes and ears, helping us identify and mitigate risks in cloud infrastructures.</p>
+<h2>Real-World Applications</h2>
+<p>In production environments, having a tailored lab for security assessments is invaluable. Organizations often use similar tools to conduct regular audits and ensure compliance with security policies. For example, a company may run Prowler weekly to catch any misconfigurations before they lead to security incidents.</p>
+<h2>What's Next?</h2>
+<p>As we wrap up Day 0, get excited for Day 1, where we’ll dive into our first real-world scenarios using CloudGoat. We’ll start testing our skills and gaining hands-on experience in identifying vulnerabilities. This is just the beginning; the adventure is only getting started!</p>
+<hr>
+<p><strong>Journey Progress:</strong> 0/100 Days Complete 🚀</p>
+7:["$","article",null,{"className":"max-w-4xl mx-auto px-4 py-8","children":[["$","header",null,{"className":"mb-8 text-center","children":[["$","h1",null,{"className":"font-headline text-3xl md:text-5xl font-bold text-primary mb-3","children":"100 Days of Cloud Security - Day 0: Lab Setup"}],["$","div",null,{"className":"text-muted-foreground text-sm md:text-base","children":[["$","span",null,{"children":["By ","Rajendra Pathuri"," on "]}],["$","time",null,{"dateTime":"2025-11-09","children":"November 9, 2025"}]]}]]}],["$","$L12",null,{"className":"my-8"}],["$","div",null,{"className":"prose prose-lg dark:prose-invert max-w-none prose-headings:text-primary prose-a:text-primary","dangerouslySetInnerHTML":{"__html":"$13"}}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+14:I[622,[],"IconMark"]
+b:{"metadata":[["$","title","0",{"children":"100 Days of Cloud Security - Day 0: Lab Setup | Gitfolio Blogger"}],["$","meta","1",{"name":"description","content":"Day 0 of my cloud security journey - Lab Setup"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}],["$","$L14","3",{}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"
