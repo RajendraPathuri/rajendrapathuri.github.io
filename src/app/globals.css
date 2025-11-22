@@ -169,3 +169,24 @@
     @apply text-inherit;
   }
 }
+
+@layer utilities {
+  .cyber-grid {
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, hsl(var(--primary) / 0.1) 1px, transparent 1px);
+    mask-image: linear-gradient(to bottom, transparent, 10%, white, 90%, transparent);
+  }
+
+  .scanline-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0) 50%,
+      rgba(0, 0, 0, 0.2) 50%,
+      rgba(0, 0, 0, 0.2)
+    );
+    background-size: 100% 4px;
+    animation: scanline 10s linear infinite;
+    pointer-events: none;
+  }
+}

@@ -36,21 +36,21 @@ export default function Header() {
         href={href}
         onClick={() => setIsMobileMenuOpen(false)}
         className={cn(
-          "transition-colors relative text-lg md:text-sm",
-          "hover:text-primary",
-          isActive ? "text-primary font-semibold" : "text-muted-foreground"
+          "transition-all relative text-lg md:text-sm px-2 py-1 rounded-md",
+          "hover:text-primary hover:bg-primary/10 hover:shadow-[0_0_10px_rgba(var(--primary),0.5)]",
+          isActive ? "text-primary font-bold shadow-[0_0_15px_rgba(var(--primary),0.6)]" : "text-muted-foreground"
         )}
       >
         {label}
         {isActive && (
-          <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-primary hidden md:block"></span>
+          <span className="absolute -bottom-1 left-0 w-full h-[2px] bg-primary shadow-[0_0_10px_var(--primary)] hidden md:block animate-pulse"></span>
         )}
       </Link>
     );
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
       <div className="w-full px-4 md:px-8 flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <CloudLightning className="h-6 w-6 text-primary" />
