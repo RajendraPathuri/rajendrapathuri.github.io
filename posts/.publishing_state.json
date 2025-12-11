@@ -1,6 +1,6 @@
 {
-  "last_published_day": 31,
-  "last_published_date": "2025-12-10T15:32:39.238653",
-  "last_published_file": "100-days-of-cloud-security-day-31.md",
-  "last_topic": "Hardening - `iam_privesc_by_key_rotation`"
+  "last_published_day": 32,
+  "last_published_date": "2025-12-11T15:33:23.781290",
+  "last_published_file": "100-days-of-cloud-security-day-32.md",
+  "last_topic": "Attack \u2014 `vpc_peering_overexposed` \u2014 Part 1"
 }
