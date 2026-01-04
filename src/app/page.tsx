@@ -32,6 +32,7 @@ export default async function AboutPage() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,var(--background)_100%)] -z-10" />
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 max-w-5xl mx-auto p-4 sm:p-6 md:p-8 relative z-10">
+        {/* Profile Picture - Hidden temporarily
         <div className="w-48 h-48 md:w-64 md:h-64 relative flex-shrink-0 group">
           <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary to-accent opacity-75 blur-lg group-hover:opacity-100 transition-opacity duration-500 animate-pulse" />
           {profileImage && (
@@ -46,6 +47,7 @@ export default async function AboutPage() {
             />
           )}
         </div>
+        */}
         <div className="text-center md:text-left space-y-4">
           <h1 className="font-cyber text-4xl sm:text-5xl md:text-6xl font-bold text-primary tracking-wide">
             {pageData.name}
